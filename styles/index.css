@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital@0;1&display=swap');
+
+@font-face {
+    font-family: 'HK Grotesk';
+    src: url('fonts/HKGrotesk-Bold.woff2') format('woff2'),
+    url('fonts/HKGrotesk-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HK Grotesk';
+    src: url('fonts/HKGrotesk-Medium.woff2') format('woff2'),
+    url('fonts/HKGrotesk-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+p {
+    font-family: 'Spectral', serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+nav .navbar-nav li a{
+     color: #F8F9F9 !important;
+ }
+
+nav .navbar-nav li a:hover {
+    color: #FFD700 !important;
+}
+nav .navbar-nav li .active {
+    color: #FFD700 !important;
+}
+
+#home {
+    background: #2C2E30;
+}
+
+#navbar1 {
+    background: #2C2E30;
+    font-family: "HK Grotesk", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+}
+
+#titleLight {
+    font-family: "HK Grotesk", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: #F8F9F9;
+}
+
+#subtitleLight {
+    font-family: "HK Grotesk", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #F8F9F9;
+}
+
+#titleDark {
+    font-family: "HK Grotesk", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: #B34A42;
+}
+
+#subtitleDark {
+    font-family: "HK Grotesk", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #B34A42;
+}
+
+#contentDark {
+    font-family: 'Spectral', serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #2C2E30;
+    font-size: 18px;
+}
